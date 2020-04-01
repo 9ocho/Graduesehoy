@@ -1,0 +1,36 @@
+*{box-sizing: border-box;}
+
+	.tabla {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size:12px;
+text-align: right;
+width: 600px;
+}
+
+.tabla th {
+padding: 5px;
+font-size: 16px;
+background-color: #b7b6b696;
+background-repeat: repeat-x;
+color: #4c5a75;
+border-right-width: 1px;
+border-bottom-width: 1px;
+border-right-style: solid;
+border-bottom-style: solid;
+border-right-color: #558FA6;
+border-bottom-color: #558FA6;
+font-family: “Trebuchet MS”, Arial;
+text-transform: uppercase;
+}
+
+
+.button {
+ border-radius: 15px;
+    background-color: #ca230b;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    color: white;
+    border-color: #E7A932;
+    border-width: 3px;
+}

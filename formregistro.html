@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sing In</title>
+	<link rel="stylesheet" type="text/css" href="css/formregistro.css">
+	<meta charset="utf-8">
+</head>
+<body>	
+	<form method="POST" action="procesoregis.php">
+		<h1>REGISTRATE</h1>
+
+		 <script type="text/javascript">
+
+          function comprobarClave()
+          { 
+   			 contra = document.f1.contra.value 
+    			contraa = document.f1.contraa.value 
+
+    		if (contra == contraa) 
+        
+   			 else 
+      		  alert("Las dos claves son distintas...\nRealizaríamos las acciones del caso negativo") 
+			} 
+    	</script>
+
+	<fieldset>	
+		<label for="name"></label>
+		<input type="text" placeholder="Nombres" name="nombre">
+
+		<label for="email"></label>
+		<input type="email" placeholder="Correo electronico " name="email">
+
+		<label for="telefono"></label>
+		<input type="text" placeholder="Numero telefonico" name="telefono">
+
+		<label for="contra"></label>
+		<input type="password" placeholder="Contraseña" name="contra">	
+
+
+		<label for="contra"></label>
+		<input type="password" placeholder="Confirmar contraseña" name="contraa">	
+	</fieldset>
+
+	
+	<center><button onclick="comprobarClave()" name="regist" class="button ">Enviar</button>
+	<p>¿Ya eres usuario de SANDWICHTIAN <a href="formlogin.html">Iniciar sesión</a></p></center>
+	</form>
+
+</body>
+</html>
