@@ -1,2 +1,1 @@
-# pruebajuan
-prueba para ver como funciona esto
+A ver si algún dia nos graduamos
