@@ -1,7 +1,7 @@
 <?php
-    require("connect_db.php");
+    require("../conexion.php");
     $sql=("SELECT * FROM ingredientes");
-    $query=mysqli_query($mysqli,$sql);
+    $query=mysqli_query($conexion,$sql);
     $cont= mysqli_num_rows($query);
     //Ingredientes es un array vacio en que se van a guardar todos los dartos de la consulta
     $ingredientes = array();
