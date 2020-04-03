@@ -51,7 +51,7 @@
   </div>
   <div class="form-group">
     <label for="imagening">Imagen</label>
-    <input type="file" name="imagen" id="imagening" class="form-control">
+    <input type="file" name="imagen" id="imagening" class="form-control" accept="image/*">
   </div>
   <button type="submit" name="regingre" class="btn btn-warning">Enviar</button>
 </form>

@@ -52,7 +52,7 @@
       </div>
       <div class="form-group">
         <label for="imagensl">Imagen</label>
-        <input type="file" name="imagen" id="imagensl" class="form-control">
+        <input type="file" name="imagen" id="imagensl" class="form-control" accept="image/*">
       </div>
       <button type="submit" name="regsalsa" class="btn btn-warning">Enviar</button>
     </form>
